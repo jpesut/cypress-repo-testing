@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cypress": "^9.5.3",
+    "prettier": "^2.6.2"
+  }
+}
