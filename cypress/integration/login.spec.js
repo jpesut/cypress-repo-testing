@@ -14,7 +14,7 @@ describe('Logging into application', () => {
         cy.get('[name="submit"]').click()
     })
     
-    it.only('Logging with valid credentials', () => {
+    it('Logging with valid credentials', () => {
         cy.login('username','password')
     })
 })
